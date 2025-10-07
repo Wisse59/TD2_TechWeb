@@ -4,6 +4,6 @@ Ce TD consiste à nous initier en Javascript à travers divers exemples à repro
 Ce projet contient :
 ### Le convertisseur de devise : Version 1, avec bouton de convertion
 ### Le convertisseur de devise : Version 2, sans bouton de convertion
-### La page web vivante à formulaire
+### La page web, contenant un formulaire modifié avec du javascript
 
 Fait par Wissem HARICHE, Licence 3 Info
