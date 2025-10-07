@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Wissem HARICHE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Révision 1 Javascript</title>
+</head>
+<body>
+    <table border="1" cellpadding="10" cellspacing="3"> <!--espacement du tableau -->
+      <thead>
+        <tr>
+          <th colspan="3" bgcolor="#38383D"><font color="white">Convertisseur</font></th>
+        </tr> <!--couleur du fond et du texte de-->
+      </thead> <!--l'en-tête du tableau-->
+      <tbody>
+        <tr>
+          <td><img src="./images/image1.png" width="50" alt="logo euro"></td>
+          <td align="center">Euros</td>
+          <td> <!--centrage du texte-->
+            <input type="number" id="euro" value="10" step="0.1">
+          </td> <!-- changer les nb par fleche -->
+        </tr>
+        <tr>
+          <td><img src="./images/image2.png" width="50" alt="logo dollar"></td>
+          <td>Dollar Américain</td>
+          <td>
+            <input type="text" id="usd" value="10.1" readonly>
+          </td> <!--en lecture seule-->
+        </tr>
+        <tr>
+          <td><img src="./images/image3.svg" width="50" alt="logo dollar australien"></td>
+          <td>Dollar Australien</td>
+          <td>
+            <input type="text" id="aud" value="14.7" readonly>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br />
+    <button id="convertir" style="border:3px solid black; border-radius:3px;">Convertir</button>
+    <!-- Les bords du bouton sont arrondis -->
+
+    <script src="./script.js"></script>
+</body>
+</html>

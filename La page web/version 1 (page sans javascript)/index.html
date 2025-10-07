@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Wissem HARICHE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Révision 3 Javascript</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="liensImages">
+      <h2>Lien et images</h2>
+      <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">La page principale de Wikipedia</a>
+      <br /><br />
+      <img src="./images/logo google.webp" alt="logo google" width="270">
+    </div>
+
+    <div id="elements">
+      <hr /> <!--barre de separation-->
+      <h2>Des éléments !</h2>
+      <input type="text" id="texte" placeholder="Premiers pas avec Javascript">
+      <br /><br />
+
+      <div>
+          <input type="radio" name="choix" id="choix1" />
+          <label for="choix1">Choix N°1</label>
+
+          <input type="radio" name="choix" id="choix2" checked />
+          <label for="choix2">Choix N°2</label>
+
+          <input type="radio" name="choix" id="choix3" />
+          <label for="choix3">Choix N°3</label>
+      </div>
+      <input type="password" name="mdp">
+      <br/><br> 
+
+      <label>0</label>
+      <input type="range" min="0" max="11" value="5">
+      <label>Volume</label>
+      <br /><br /> <!--les labels sont les txt-->
+                   <!--avant et apres la barre-->
+
+      <label for="case">Une case à cocher</label>
+      <input type="checkbox" id="case">
+      <br /><br />
+
+      <label for="date">Date :</label>
+      <input type="date" id="date">
+      <br><br>
+      <button>Ok</button>
+      <hr />
+    </div>
+
+    <div id="progression">
+      <h2>Barres de progression</h2>
+      <label for="barre1">Téléchargement en cours : </label>
+      <progress id="barre1" value="50" max="100"></progress> <!--remplie a moitie-->
+      <br /><br />
+      <label for="barre2">Espace disponible : </label>
+      <div id="barre2">
+        <div class="valeur"></div>
+      </div> <!--la barre verte sera faite en CSS-->
+      <hr />
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

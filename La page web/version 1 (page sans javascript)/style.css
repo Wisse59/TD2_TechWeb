@@ -1,0 +1,31 @@
+#texte {
+    margin: 10px 0;
+    padding: 8px; /*les espacements*/
+    width: 210px;
+    border: 1px solid #000;
+    color: black;
+}
+
+#texte::placeholder {
+    color: black; /*le texte reste en noir*/
+}
+
+progress {
+    width: 200px;
+    height: 15px;
+}
+
+#barre2 {
+  display: inline-block; /*a la suite du texte*/
+  width: 80px;
+  height: 10px;
+  background: #ddd; /*couleur de la partie non chargee*/
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+#barre2 .valeur {
+  width: 50%; /*la barre est remplie de moitié en vert*/
+  height: 100%;
+  background: green;
+}
